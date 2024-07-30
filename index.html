@@ -6,192 +6,215 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Carpathians</title>
+   <!-- Favicon-->
    <link rel="shortcut icon" href="./img//favicon/logo.png" type="img/png">
+   <!-- Font links -->
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet">
+   <!--Modern Normalize-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+   <!-- Custom styles-->
+   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>
-   <!-- HEADER -->
-   <header>
-      <!-- NAV -->
-      <nav>
-         <a><img src="./img/svg/logo.svg" alt="logo" width="56" height="58">Carpathians
+<!--Main contens-->
+<main class="main">
+   <!--Hero image-->
+   <section class="hero section">
+      <nav class="header-nav">
+         <a class="header-logo"><img class="" src="./img/svg/logo.svg" alt="logo" width="56" height="58">
          </a>
-         <ul>
-            <li><a href="#about"> About us </a></li>
-            <li><a href="#tours"> Tours </a></li>
-            <li><a href="#reviews"> Reviews </a></li>
-            <li><a href="#gallery"> Gallery </a></li>
-            <li><a href="#contacts"> Contacts </a></li>
+         <ul class="header-list list">
+            <li class="header-list-item"><a class="header-link link" href="#about"> About us </a></li>
+            <li class="header-list-item"><a class="header-link link" href="#tours"> Tours </a></li>
+            <li class="header-list-item"><a class="header-link link" href="#reviews"> Reviews </a></li>
+            <li class="header-list-item"><a class="header-link link" href="#gallery"> Gallery </a></li>
+            <li class="header-list-item"><a class="header-link link" href="#contacts"> Contacts </a></li>
          </ul>
       </nav>
-
-   </header>
-   <!--Main contens-->
-   <main>
-      <!--Hero image-->
-      <section>
-         <h1> TOURS TO THE CARPATHIANS FROM LVIV </h1>
-         <p>Journeys to the very heart of the Carpathians for those who want a real reboot</p>
-         <button type="button"> BOOK A TOUR </button>
-         <ul>
-            <li><a href="https://telegram.com" target="_blank" rel="noopener noreferrer" aria-label="Telegram icon">
-                  <img src="./img/svg/telegram.svg" alt="Telegram icon" width="33" height="33"></a>
-            </li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram icon">
-                  <img src="./img/svg/instagram.svg" alt="Instagram icon" width="33" height="33"></a>
-            </li>
-            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook icon">
-                  <img src="./img/svg/facebook.svg" alt="Facebook icon" width="33" height="33"></a>
-            </li>
-         </ul>
-      </section>
-      <!--Section 1-->
-      <section id="about">
-
-         <h2> About us </h2>
-
-
-         <p>
-            Travel is our life. We have been organizing tours to the Carpathians since 2007 and have never been bored
-            for a single day. The Carpathians are many interesting and unexplored places that are worth visiting and
-            showing them to others.
-            Coming to the Carpathians will make you forget about the polluted, noisy world and enjoy untouched nature.
-            From picturesque forests to clean rivers and lakes and Carpathian streams between the mountains, which offer
-            magical landscapes and allow you to forget about all problems and unnecessary thoughts.
-         </p>
-
-
-      </section>
-      <!--Section 2-->
-      <section>
-
-         <h2> Our advantages </h2>
-         <ul>
-            <li>
-               <img src="./img/Our adventages/2.jpg" alt="green_mountain" width="377" height="588">
-            </li>
-            <li>
-               <img src="./img/Our adventages/4.jpg" alt="mountain_river " width="377" height="507">
-            </li>
-            <li>
-               <img src="./img/Our adventages/3.jpg" alt="green_valley" width="377" height="588">
-            </li>
-         </ul>
-      </section>
-      <!--Section 3-->
-      <section id="tours">
-
-         <h2> Upcoming tours </h2>
-         <ul>
-            <li>
-               <img src="./img/Upcoming tours/Hoverla.jpg" alt="Hoverla" width="377" height="438">
-               <h3> Ascent to Hoverla </h3>
-               <p>
-                  From UAH 4,499/person
-               </p>
-               <button type="button"> MORE DETAILS </button>
-            </li>
-            <li>
-               <img src="./img/Upcoming tours/Bukovel.jpg" alt="Bukovel" width="377" height="438">
-               <h3> Ski tour to Bukovel </h3>
-               <p>
-                  From UAH 7,499/person
-               </p>
-               <button type="button"> MORE DETAILS </button>
-            </li>
-            <li>
-               <img src="./img/Upcoming tours/Week.jpg" alt="Week in Carpathians" width="377" height="438">
-               <h3> Week in Carpathians </h3>
-               <p>
-                  From UAH 9,999/person
-               </p>
-               <button type="button"> MORE DETAILS </button>
-            </li>
-
-         </ul>
-      </section>
-      <!--Section 4-->
-      <section id="reviews">
-         <h2> Reviews </h2>
-         <ul>
-            <li>
-               <div>
-                  <img src="./img/reviews/Review_desk.jpg" alt="fon" width="377" height="134">
-                  <img src="/img/reviews/Maria.png" alt="Maria" width="125" height="125">
-                  <h3>Maria</h3>
-                  <p>It was really cool! We saw everything - sun, snow, rain, fog! It's very exciting and interesting,
-                     you won't regret it - it's worth going and seeing everything with your own eyes. Everything is
-                     organized at the highest level.</p>
-               </div>
-            </li>
-            <li>
-               <div>
-                  <img src="./img/reviews/Review_desk.jpg" alt="fon" width="377" height="134">
-                  <img src="/img/reviews/Ostap.png" alt="Ostap" width="125" height="125">
-                  <h3>Ostap</h3>
-                  <p>Good organization, everything went smoothly. Friendly guide Taras told interesting facts about the
-                     area and customs throughout the tour.</p>
-               </div>
-            </li>
-
-            <li>
-               <div>
-                  <img src="./img/reviews/Review_desk.jpg" alt="fon" width="377" height="134">
-                  <img src="/img/reviews/Anita.png" alt="Anita" width="125" height="125">
-                  <h3>Anita</h3>
-                  <p>Who is going to the mountains for the first time - this is exactly the tour and the people who
-                     organize everything. Guide Makar is interesting stories, selection of a route for a comfortable
-                     ascent, motivation and support.</p>
-               </div>
-            </li>
-         </ul>
-      </section>
-      <!--Section 5-->
-      <section id="gallery">
-         <h2> Gallery </h2>
-         <ul>
-            <li><img src="./img/Gallery/Sunrise.jpg" alt="Sunrise" width="575" height="445"></li>
-            <li><img src="./img/Gallery/Sunset.jpg" alt="Sunset" width="575" height="445"></li>
-            <div>Pagination</div>
-         </ul>
-      </section>
-      <!--Section 6-->
-      <section>
-         <h2> Questions </h2>
-
-      </section>
-   </main>
-   <!--Footer-->
-   <footer id="contacts">
-      <h2> Contacts </h2>
-      <!-- ADDRES -->
-      <address>
-         <ul>
-            <li>
-               <a href=""> Lviv, st. Doroshenko, 44 k </a><br>
-            </li>
-            <li>
-               <a href="mailto:mandrykarpaty@gmail.com"> mandrykarpaty@gmail.com </a><br>
-            </li>
-            <li>
-               <a href="tel:380971626790"> +38 (097) 162-67-90 </a><br>
-            </li>
-         </ul>
-      </address>
-      <ul>
-         <li><a href="https://telegram.com" target="_blank" rel="noopener noreferrer" aria-label="Telegram icon">
-               <img src="./img/svg/telegram.svg" alt="Telegram icon" width="33" height="33"></a>
+      <h1 class="hero-title"> TOURS TO THE CARPATHIANS FROM LVIV </h1>
+      <p class="hero-desc">Journeys to the very heart of the Carpathians for those who want a real reboot</p>
+      <button class="hero-btn" type="button"> BOOK A TOUR </button>
+      <ul class="hero-list list">
+         <li class="hero-list-item"><a class="hero-link" href="https://telegram.com" target="_blank"
+               rel="noopener noreferrer" aria-label="Telegram icon">
+               <img class="hero-img" src="./img/svg/telegram.svg" alt="Telegram icon" width="33" height="33"></a>
          </li>
-         <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram icon">
-               <img src="./img/svg/instagram.svg" alt="Instagram icon" width="33" height="33"></a>
+         <li class="hero-list-item"><a class="hero-link" href="https://instagram.com" target="_blank"
+               rel="noopener noreferrer" aria-label="Instagram icon">
+               <img class="hero-img" src="./img/svg/instagram.svg" alt="Instagram icon" width="33" height="33"></a>
          </li>
-         <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook icon">
-               <img src="./img/svg/facebook.svg" alt="Facebook icon" width="33" height="33"></a></li>
+         <li class="hero-list-item"><a class="hero-link" href="https://facebook.com" target="_blank"
+               rel="noopener noreferrer" aria-label="Facebook icon">
+               <img class="hero-img" src="./img/svg/facebook.svg" alt="Facebook icon" width="33" height="33"></a>
+         </li>
       </ul>
-      <p>
-         &copy; Сreated by LelekaSoft
+   </section>
+   <!--Section 1-->
+   <section id="about" class="about section">
+
+      <h2 class="about-subtitle"> About us </h2>
+
+
+      <p class="about-desc">
+         Travel is our life. We have been organizing tours to the Carpathians since 2007 and have never been bored
+         for a single day. The Carpathians are many interesting and unexplored places that are worth visiting and
+         showing them to others.
+         Coming to the Carpathians will make you forget about the polluted, noisy world and enjoy untouched nature.
+         From picturesque forests to clean rivers and lakes and Carpathian streams between the mountains, which offer
+         magical landscapes and allow you to forget about all problems and unnecessary thoughts.
       </p>
-   </footer>
+
+
+   </section>
+   <!--Section 2-->
+   <section class="advantages section">
+
+      <h2 class="advantages-subtitle"> Our advantages </h2>
+      <ul class="advantages-list list">
+         <li class="advantages-list-item">
+            <img class="advantages-img" src="./img/Our adventages/2.jpg" alt="green_mountain" width="377" height="588">
+         </li>
+         <li class="advantages-list-item">
+            <img class="advantages-img" src="./img/Our adventages/4.jpg" alt="mountain_river " width="377" height="507">
+         </li>
+         <li class="advantages-list-item">
+            <img class="advantages-img" src="./img/Our adventages/3.jpg" alt="green_valley" width="377" height="588">
+         </li>
+      </ul>
+   </section>
+   <!--Section 3-->
+   <section id="tours" class="tours section">
+
+      <h2 class="tour-subtitle"> Upcoming tours </h2>
+      <ul class="tour-list list">
+         <li class="tour-list-item">
+            <img class="tour-img" src="./img/Upcoming tours/Hoverla.jpg" alt="Hoverla" width="377" height="438">
+            <h3 class="tour-caption"> Ascent to Hoverla </h3>
+            <p class="tour-desc">
+               From UAH 4,499/person
+            </p>
+            <button class="tour-btn" type="button"> MORE DETAILS </button>
+         </li>
+         <li class="tour-list-item">
+            <img class="tour-img" src="./img/Upcoming tours/Bukovel.jpg" alt="Bukovel" width="377" height="438">
+            <h3 class="tour-caption"> Ski tour to Bukovel </h3>
+            <p class="tour-desc">
+               From UAH 7,499/person
+            </p>
+            <button class="tour-btn" type="button"> MORE DETAILS </button>
+         </li>
+         <li class="tour-list-item">
+            <img class="tour-img" src="./img/Upcoming tours/Week.jpg" alt="Week in Carpathians" width="377"
+               height="438">
+            <h3 class="tour-caption"> Week in Carpathians </h3>
+            <p class="tour-desc">
+               From UAH 9,999/person
+            </p>
+            <button class="tour-btn" type="button"> MORE DETAILS </button>
+         </li>
+
+      </ul>
+   </section>
+   <!--Section 4-->
+   <section id="reviews" class="reviews section">
+      <h2 class="reviews-subtitle"> Reviews </h2>
+      <ul class="reviews-list list">
+         <li class="reviews-list-item">
+            <div class="reviews-box">
+               <img class="reviews-img" src="./img/reviews/Review_desk.jpg" alt="fon" width="377" height="134">
+               <img class="reviews-photo" src="/img/reviews/Maria.png" alt="Maria" width="125" height="125">
+               <h3 class="reviews-caption">Maria</h3>
+               <p class="reviews-desc">It was really cool! We saw everything - sun, snow, rain, fog! It's very
+                  exciting and
+                  interesting,
+                  you won't regret it - it's worth going and seeing everything with your own eyes. Everything is
+                  organized at the highest level.</p>
+            </div>
+         </li>
+         <li class="reviews-list-item">
+            <div class="reviews-box">
+               <img class="reviews-img" src="./img/reviews/Review_desk.jpg" alt="fon" width="377" height="134">
+               <img class="reviews-photo" src="/img/reviews/Ostap.png" alt="Ostap" width="125" height="125">
+               <h3 class="reviews-caption">Ostap</h3>
+               <p class="reviews-desc">Good organization, everything went smoothly. Friendly guide Taras told
+                  interesting facts
+                  about the
+                  area and customs throughout the tour.</p>
+            </div>
+         </li>
+
+         <li class="reviews-list-item">
+            <div class="reviews-box">
+               <img class="reviews-img" src="./img/reviews/Review_desk.jpg" alt="fon" width="377" height="134">
+               <img class="reviews-photo" src="/img/reviews/Anita.png" alt="Anita" width="125" height="125">
+               <h3 class="reviews-caption">Anita</h3>
+               <p class="reviews-desc">Who is going to the mountains for the first time - this is exactly the tour
+                  and the people
+                  who
+                  organize everything. Guide Makar is interesting stories, selection of a route for a comfortable
+                  ascent, motivation and support.</p>
+            </div>
+         </li>
+      </ul>
+   </section>
+   <!--Section 5-->
+   <section id="gallery" class="gallery section">
+      <h2 class="gallery-subtitle"> Gallery </h2>
+      <ul class="gallery-list list">
+         <li class="gallery-list-item"><img class="gallery-img" src="./img/Gallery/Sunrise.jpg" alt="Sunrise"
+               width="575" height="445"></li>
+         <li class="gallery-list-item"><img class="gallery-img" src="./img/Gallery/Sunset.jpg" alt="Sunset" width="575"
+               height="445"></li>
+         <div class="gallery-scroll">Pagination</div>
+      </ul>
+   </section>
+   <!--Section 6-->
+   <section class="questions section">
+      <h2 class="questions-subtitle"> Questions </h2>
+
+   </section>
+</main>
+<!--Footer-->
+<footer id="contacts" class="footer section">
+   <h2 class="footer-subtitle"> Contacts </h2>
+   <!-- ADDRES -->
+   <address class="footer-adders">
+      <ul class="footer-list list">
+         <li class="footer-list-item">
+            <a class="footer-link-adders link" href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D0%B5%D1%82%D1%80%D0%B0+%D0%94%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE,+44,+%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2,+%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+79000/@49.8375772,24.0196447,17z/data=!3m1!4b1!4m6!3m5!1s0x473add701560834d:0x404791f70e3e2d2!8m2!3d49.8375738!4d24.022225!16s%2Fg%2F1tfycbny?entry=ttu
+               " target="_blank" rel="noopener noreferrer" aria-label="addres"> Lviv, st. Doroshenko, 44 k </a><br>
+         </li>
+         <li class="footer-list-item">
+            <a class="footer-link-adders link" href="mailto:mandrykarpaty@gmail.com"> mandrykarpaty@gmail.com </a><br>
+         </li>
+         <li class="footer-list-item">
+            <a class="footer-link-adders link" href="tel:380971626790"> +38 (097) 162-67-90 </a><br>
+         </li>
+      </ul>
+   </address>
+   <ul class="footer-list-social list">
+      <li class="footer-social"><a class="footer-link-social link" href="https://telegram.com" target="_blank"
+            rel="noopener noreferrer" aria-label="Telegram icon">
+            <img class="footer-img-social" src="./img/svg/telegram.svg" alt="Telegram icon" width="33" height="33"></a>
+      </li>
+      <li class="footer-social"><a class="footer-link-social link" href="https://instagram.com" target="_blank"
+            rel="noopener noreferrer" aria-label="Instagram icon">
+            <img class="footer-img-social" src="./img/svg/instagram.svg" alt="Instagram icon" width="33"
+               height="33"></a>
+      </li>
+      <li class="footer-social"><a class="footer-link-social link" href="https://facebook.com" target="_blank"
+            rel="noopener noreferrer" aria-label="Facebook icon">
+            <img class="footer-img-social" src="./img/svg/facebook.svg" alt="Facebook icon" width="33" height="33"></a>
+      </li>
+   </ul>
+   <p class="footer-desc">
+      &copy; Сreated by LelekaSoft
+   </p>
+</footer>
 </body>
 
 </html>

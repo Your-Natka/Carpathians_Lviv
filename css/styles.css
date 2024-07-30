@@ -1,0 +1,304 @@
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+#root {
+  color: #5b86a1;
+  color: #1b1d1b;
+  color: #202321;
+  color: #f7fbfb;
+  color: #a3a5a3;
+  background-color: #f5f5f5;
+}
+body {
+  font-family: Montserrat, Manrope, Playfair Display sans-serif;
+}
+.section {
+  background-color: #f7fbfb;
+}
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.list {
+  list-style: none;
+}
+main {
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border-color: #5b86a1;
+}
+h2,
+h3 {
+  color: #1b1d1b;
+}
+
+/**
+  |============================
+  | HERO styles
+  |============================
+*/
+.hero {
+  background-color: #a3a5a3;
+}
+.section {
+}
+.header-nav {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.22;
+  text-align: left;
+  color: #f7fbfb;
+}
+.header-logo {
+  color: #f7fbfb;
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-link {
+  color: #f7fbfb;
+}
+.hero-title {
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: capitalize;
+  color: #f7fbfb;
+}
+.hero-desc {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.22;
+  text-align: center;
+  color: #f7fbfb;
+}
+.hero-btn {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: capitalize;
+  color: #f7fbfb;
+  background-color: #5b86a1;
+}
+.hero-list {
+}
+.hero-list-item {
+}
+.hero-link {
+}
+.hero-img {
+}
+/**
+  |============================
+  | ABOUT-1 styles
+  |============================
+*/
+.about {
+}
+.section {
+}
+.about-subtitle {
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: center;
+}
+.about-desc {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: left;
+  color: #202321;
+}
+/**
+  |============================
+  | ADVENTAGES-2 styles
+  |============================
+*/
+.advantages {
+}
+.section {
+}
+.advantages-subtitle {
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: center;
+}
+.advantages-list {
+}
+.advantages-list-item {
+}
+.advantages-img {
+}
+/**
+  |============================
+  | TOURS-3 styles
+  |============================
+*/
+.tours {
+}
+.section {
+}
+.tour-subtitle {
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: center;
+}
+.tour-list {
+}
+.tour-list-item {
+}
+.tour-img {
+}
+.tour-caption {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.22;
+  text-align: left;
+}
+.tour-desc {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.22;
+  text-align: left;
+  color: #202321;
+}
+.tour-btn {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: capitalize;
+  color: #f7fbfb;
+  background-color: #5b86a1;
+}
+/**
+  |============================
+  | REVIEWS-4 styles
+  |============================
+*/
+.reviews {
+}
+.section {
+}
+.reviews-subtitle {
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: center;
+}
+.reviews-list {
+}
+.reviews-list-item {
+}
+.reviews-box {
+}
+.reviews-img {
+}
+.reviews-photo {
+}
+.reviews-caption {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.22;
+  text-align: center;
+  color: #5b86a1;
+}
+.reviews-desc {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: left;
+  color: #202321;
+}
+/**
+  |============================
+  | GALLERY-5 styles
+  |============================
+*/
+.gallery {
+}
+.section {
+}
+.gallery-subtitle {
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: center;
+}
+.gallery-list {
+}
+.gallery-list-item {
+}
+.gallery-img {
+}
+.gallery-scroll {
+}
+/**
+  |============================
+  | QUESTIONS-6 styles
+  |============================
+*/
+.questions {
+}
+.section {
+}
+.questions-subtitle {
+}
+/**
+  |============================
+  | FOOTER styles
+  |============================
+*/
+.footer {
+  background-color: #202321;
+}
+.section {
+}
+.footer-subtitle {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: center;
+  color: #f7fbfb;
+}
+.footer-adders {
+  font-style: normal;
+}
+.footer-list {
+}
+.footer-list-item {
+}
+.footer-link-adders {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.26px;
+  text-align: center;
+  color: #f7fbfb;
+}
+.footer-list-social {
+}
+.footer-social {
+  color: #f7fbfb;
+}
+.footer-link-social {
+}
+.footer-img-social {
+}
+.footer-desc {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.36;
+  text-align: center;
+  counter-reset: #a3a5a3;
+}
