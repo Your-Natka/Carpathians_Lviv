@@ -97,6 +97,15 @@ h3 {
   text-align: left;
   margin-bottom: 20px;
 }
+p {
+  margin-top: 12px;
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: left;
+  color: #202321;
+}
 /**
   |============================
   | HERO styles
@@ -116,11 +125,8 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 40px 40px 40px;
 }
 
-.section {
-}
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -133,21 +139,21 @@ h3 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.header-box {
+  display: flex;
+  justify-content: space-between;
+}
 .header-logo {
-  width: 60px;
-  height: 60px;
   color: #f7fbfb;
-  margin-right: 318px;
 }
 .header-icon {
+  margin-right: 318px;
   justify-content: center;
 }
 .header-list {
   display: flex;
   align-items: center;
   gap: 70px;
-}
-.header-list-item {
 }
 
 .header-link {
@@ -158,7 +164,7 @@ h3 {
   font-weight: 400;
   line-height: 1.22;
   text-align: center;
-  gap: 4px;
+
   text-transform: capitalize;
   color: #f7fbfb;
   margin-bottom: 40px;
@@ -188,6 +194,9 @@ h3 {
   margin-left: auto;
 }
 .hero-list-item {
+  /* display: inline-block;
+  align-items: center;
+  justify-content: center; */
   gap: 32px;
 }
 .hero-link {
@@ -198,47 +207,22 @@ h3 {
   border-radius: 10px;
   border: 1px solid rgba(17, 17, 17, alpha);
 }
-.hero-img {
+.hero-icon {
+  width: 40px;
+  height: 40px;
 }
 /**
   |============================
   | ABOUT-1 styles
   |============================
 */
-.about {
-}
-.section {
-}
-.about-subtitle {
-}
-.about-desc {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.22;
-  text-align: left;
-  color: #202321;
-}
-.about-desc-two {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.22;
-  text-align: left;
-  color: #202321;
-  gap: 4px;
-}
+
 /**
   |============================
   | ADVENTAGES-2 styles
   |============================
 */
-.advantages {
-}
-.section {
-}
-.advantages-container {
-}
-.advantages-subtitle {
-}
+
 .advantages-list {
   display: flex;
   gap: 20px;
@@ -263,23 +247,13 @@ h3 {
 .advantage-btn.last-chils {
   margin-bottom: 0px;
 }
-.advantages-img {
-}
-.advantage-list {
-}
-.advantage-list-item {
-}
+
 /**
   |============================
   | TOURS-3 styles
   |============================
 */
-.tours {
-}
-.section {
-}
-.tour-subtitle {
-}
+
 .tour-list {
   display: flex;
   justify-content: space-between;
@@ -291,8 +265,7 @@ h3 {
   flex-direction: column;
   border: 2px solid #5b86a1;
 }
-.tour-img {
-}
+
 .tour-info {
   display: flex;
   flex-direction: column;
@@ -300,8 +273,7 @@ h3 {
   padding-left: 20px;
   padding-right: 20px;
 }
-.tour-caption {
-}
+
 .tour-desc {
   font-size: 24px;
   font-weight: 600;
@@ -325,12 +297,6 @@ h3 {
   | REVIEWS-4 styles
   |============================
 */
-.reviews {
-}
-.section {
-}
-.reviews-subtitle {
-}
 
 .reviews-list {
   display: flex;
@@ -349,10 +315,7 @@ h3 {
   padding-right: 28px;
   background-color: var(--secondary);
 }
-.reviews-img {
-}
-.reviews-photo {
-}
+
 .reviews-caption {
   text-align: center;
   color: #5b86a1;
@@ -371,27 +334,31 @@ h3 {
   | GALLERY-5 styles
   |============================
 */
-.gallery {
-}
+
 .section {
   display: flex;
 }
-.gallery-subtitle {
-}
+
 .gallery-list {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   margin-bottom: 40px;
 }
-.gallery-list-item {
-}
-.gallery-img {
-}
 .gallery-scroll {
-  max-width: 140px;
-  height: 40;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 }
+.gallery-icon {
+  width: 140px;
+  height: 40px;
+  gap: 60px;
+  display: inline-flex;
+  justify-content: center;
+}
+
 /**
   |============================
   | QUESTIONS-6 styles
@@ -407,8 +374,7 @@ h3 {
   background-position: center;
   background-size: cover;
 }
-.questions-container {
-}
+
 .questions-subtitle {
   display: none;
 }
@@ -449,6 +415,10 @@ h3 {
   text-align: center;
   color: #f7fbfb;
 }
+.footer-icon {
+  width: 40px;
+  height: 40px;
+}
 .footer-list-social {
   display: flex;
   gap: 32px;
@@ -458,10 +428,7 @@ h3 {
   height: 40px;
   color: #f7fbfb;
 }
-.footer-link-social {
-}
-.footer-img-social {
-}
+
 .footer-desc {
   margin-top: 64px;
   font-family: Manrope;

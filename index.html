@@ -28,58 +28,82 @@
       <section class="hero section">
          <div class="hero-container container">
             <nav class="header-nav container">
-               <a class="header-logo"><img class="header-icon" src="./img/svg/logo.svg" alt="logo" width="56"
-                     height="58">
-               </a>
-               <ul class="header-list list">
-                  <li class="header-list-item"><a class="header-link link" href="#about"> About us </a></li>
-                  <li class="header-list-item"><a class="header-link link" href="#tours"> Tours </a></li>
-                  <li class="header-list-item"><a class="header-link link" href="#reviews"> Reviews </a></li>
-                  <li class="header-list-item"><a class="header-link link" href="#gallery"> Gallery </a></li>
-                  <li class="header-list-item"><a class="header-link link" href="#contacts"> Contacts </a></li>
-               </ul>
+               <div class="header-box">
+                  <svg class="header-icon" width="60" height="60">
+                     <use class="header-logo" href="./img/svg/sprite.svg#icon-logo" width="56" height="58"></use>
+                  </svg>
+                  <ul class="header-list list">
+                     <li class="header-list-item"><a class="header-link link" href="#about"> About us </a></li>
+                     <li class="header-list-item"><a class="header-link link" href="#tours"> Tours </a></li>
+                     <li class="header-list-item"><a class="header-link link" href="#reviews"> Reviews </a></li>
+                     <li class="header-list-item"><a class="header-link link" href="#gallery"> Gallery </a></li>
+                     <li class="header-list-item"><a class="header-link link" href="#contacts"> Contacts </a></li>
+                  </ul>
+               </div>
             </nav>
 
             <h1 class="hero-title"> TOURS TO THE CARPATHIANS FROM LVIV </h1>
             <p class="hero-desc">Journeys to the very heart of the Carpathians for those who want a real reboot</p>
             <button class="hero-btn" type="button"> BOOK A TOUR </button>
             <ul class="hero-list list">
-               <li class="hero-list-item"><a class="hero-link" href="https://telegram.com" target="_blank"
-                     rel="noopener noreferrer" aria-label="Telegram icon">
-                     <img class="hero-img" src="./img/svg/telegram.svg" alt="Telegram icon" width="33" height="33"></a>
+               <li class="hero-list-item">
+                  <a class="hero-link" href="https://telegram.com" target="_blank" rel="noopener noreferrer"
+                     aria-label="Telegram icon">
+                     <span class="hero-icon">
+                        <svg class="hero-img" width="33" height="33">
+                           <use href="./img/svg/sprite.svg#icon-telegram"></use>
+                        </svg>
+                     </span>
+                  </a>
                </li>
-               <li class="hero-list-item"><a class="hero-link" href="https://instagram.com" target="_blank"
-                     rel="noopener noreferrer" aria-label="Instagram icon">
-                     <img class="hero-img" src="./img/svg/instagram.svg" alt="Instagram icon" width="33"
-                        height="33"></a>
+               <li class="hero-list-item">
+                  <a class="hero-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                     aria-label="Instagram icon">
+                     <span class="hero-icon">
+                        <svg class="hero-img" width="33" height="33">
+                           <use href="./img/svg/sprite.svg#icon-instagram"></use>
+                        </svg>
+                     </span>
+                  </a>
                </li>
-               <li class="hero-list-item"><a class="hero-link" href="https://facebook.com" target="_blank"
-                     rel="noopener noreferrer" aria-label="Facebook icon">
-                     <img class="hero-img" src="./img/svg/facebook.svg" alt="Facebook icon" width="33" height="33"></a>
+               <li class="hero-list-item">
+                  <a class="hero-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                     aria-label="Facebook icon">
+                     <span class="hero-icon">
+                        <svg class="hero-img" width="33" height="33">
+                           <use href="./img/svg/sprite.svg#icon-facebook"></use>
+                        </svg>
+                     </span>
+                  </a>
                </li>
             </ul>
 
          </div>
       </section>
-      <!--Section 1-->
+      <!--ABOUT Section 1-->
       <section id="about" class="about section">
          <div class="container">
             <h2 class="about-subtitle"> About us </h2>
-            <p class="about-desc">
-               Travel is our life. We have been organizing tours to the Carpathians since 2007 and have never been bored
-               for a single day. The Carpathians are many interesting and unexplored places that are worth visiting and
-               showing them to others.
-            </p>
-            <p class="about-desc-two">
-               Coming to the Carpathians will make you forget about the polluted, noisy world and enjoy untouched
-               nature. From picturesque forests to clean rivers and lakes and Carpathian streams between the mountains,
-               which
-               offer magical landscapes and allow you to forget about all problems and unnecessary thoughts.
-            </p>
+
+            <div class="about-paragraph">
+               <p class="about-desc">
+                  Travel is our life. We have been organizing tours to the Carpathians since 2007 and have never been
+                  bored
+                  for a single day. The Carpathians are many interesting and unexplored places that are worth visiting
+                  and
+                  showing them to others.
+               </p>
+               <p class="about-desc">
+                  Coming to the Carpathians will make you forget about the polluted, noisy world and enjoy untouched
+                  nature. From picturesque forests to clean rivers and lakes and Carpathian streams between the
+                  mountains,
+                  which offer magical landscapes and allow you to forget about all problems and unnecessary thoughts.
+               </p>
+            </div>
          </div>
 
       </section>
-      <!--Section 2-->
+      <!--ADVENTAGES Section 2-->
       <section class="advantages section">
          <div class="advantages-container container">
             <h2 class="advantages-subtitle"> Our advantages </h2>
@@ -119,7 +143,7 @@
             </ul>
          </div>
       </section>
-      <!--Section 3-->
+      <!--TOURS Section 3-->
       <section id="tours" class="tours section">
          <div class="container">
             <h2 class="tour-subtitle"> Upcoming tours </h2>
@@ -159,7 +183,7 @@
             </ul>
          </div>
       </section>
-      <!--Section 4-->
+      <!--REVIEWS Section 4-->
       <section id="reviews" class="reviews section">
          <div class="container">
             <h2 class="reviews-subtitle"> Reviews </h2>
@@ -203,7 +227,7 @@
             </ul>
          </div>
       </section>
-      <!--Section 5-->
+      <!--GALLERY Section 5-->
       <section id="gallery" class="gallery section">
          <div class="container">
             <h2 class="gallery-subtitle"> Gallery </h2>
@@ -213,10 +237,19 @@
                <li class="gallery-list-item"><img class="gallery-img" src="./img/Gallery/Sunset.jpg" alt="Sunset"
                      width="575" height="445"></li>
             </ul>
-            <button class="gallery-scroll">Pagination</button>
+            <a class="gallery-scroll" href="#gallery">
+               <span class="gallery-icon">
+                  <svg class="gallery-list-item" width="15" height="27">
+                     <use class="gallery-list-icon" href="./img/svg/sprite.svg#icon-left"></use>
+                  </svg>
+                  <svg class="gallery-list-item" width="15" height="27">
+                     <use class="gallery-list-icon" href="./img/svg/sprite.svg#icon-right"></use>
+                  </svg>
+               </span>
+            </a>
          </div>
       </section>
-      <!--Section 6-->
+      <!--QUESTIONS Section 6-->
       <section class="questions section">
          <div class="questions-container container">
             <h2 class="questions-subtitle" visually-hidden> Questions </h2>
@@ -246,26 +279,41 @@
                </ul>
             </address>
             <ul class="footer-list-social list">
-               <li class="footer-social"><a class="footer-link-social link" href="https://telegram.com" target="_blank"
+               <li class="footer-social">
+                  <a class="footer-link-social link" href="https://telegram.com" target="_blank"
                      rel="noopener noreferrer" aria-label="Telegram icon">
-                     <img class="footer-img-social" src="./img/svg/telegram.svg" alt="Telegram icon" width="33"
-                        height="33"></a>
+                     <span class="footer-icon">
+                        <svg class="footer-img-social" width="33" height="33">
+                           <use href="./img/svg/sprite.svg#icon-telegram"></use>
+                        </svg>
+                     </span>
+                  </a>
                </li>
-               <li class="footer-social"><a class="footer-link-social link" href="https://instagram.com" target="_blank"
+               <li class="footer-social">
+                  <a class="footer-link-social link" href="https://instagram.com" target="_blank"
                      rel="noopener noreferrer" aria-label="Instagram icon">
-                     <img class="footer-img-social" src="./img/svg/instagram.svg" alt="Instagram icon" width="33"
-                        height="33"></a>
+                     <span class="footer-icon">
+                        <svg class="footer-img-social" width="33" height="33">
+                           <use href="./img/svg/sprite.svg#icon-instagram"></use>
+                        </svg>
+                     </span>
+                  </a>
                </li>
-               <li class="footer-social"><a class="footer-link-social link" href="https://facebook.com" target="_blank"
+               <li class="footer-social">
+                  <a class="footer-link-social link" href="https://facebook.com" target="_blank"
                      rel="noopener noreferrer" aria-label="Facebook icon">
-                     <img class="footer-img-social" src="./img/svg/facebook.svg" alt="Facebook icon" width="33"
-                        height="33"></a>
+                     <span class="footer-icon">
+                        <svg class="footer-img-social" width="33" height="33">
+                           <use href="./img/svg/sprite.svg#icon-facebook"></use>
+                        </svg>
+                     </span>
+                  </a>
                </li>
             </ul>
          </div>
-         <p class="footer-desc">
+         <span class="footer-desc">
             &copy; Сreated by LelekaSoft
-         </p>
+         </span>
       </div>
    </footer>
 </body>
