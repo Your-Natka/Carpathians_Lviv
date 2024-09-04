@@ -125,6 +125,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .header-nav {
@@ -190,26 +191,32 @@ p {
   margin-bottom: 200px;
 }
 .hero-list {
-  margin-bottom: 191px;
+  position: absolute;
+  bottom: 15%;
+  left: 96%;
   margin-left: auto;
 }
 .hero-list-item {
-  /* display: inline-block;
-  align-items: center;
-  justify-content: center; */
-  gap: 32px;
+  border-radius: 10px;
+  /* border: 1px solid rgba(17, 17, 17, alpha); */
+  /* gap: 32px; */
 }
 .hero-link {
   display: flex;
   justify-content: center;
   height: 40px;
   width: 40px;
-  border-radius: 10px;
-  border: 1px solid rgba(17, 17, 17, alpha);
 }
 .hero-icon {
   width: 40px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.hero-img {
+  margin-bottom: 32px;
 }
 /**
   |============================
@@ -222,10 +229,17 @@ p {
   | ADVENTAGES-2 styles
   |============================
 */
-
+.advantages-box {
+  position: relative;
+}
 .advantages-list {
   display: flex;
   gap: 20px;
+}
+.advantage-list-btn {
+  position: absolute;
+  top: 12%;
+  left: 23%;
 }
 .advantages-list-item:nth-child(2) {
   margin-top: 80px;
@@ -242,10 +256,11 @@ p {
   font-size: 24px;
   line-height: 1.22;
   background-color: #5b86a1;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+  border: 0;
 }
-.advantage-btn.last-chils {
-  margin-bottom: 0px;
+.advantage-list-btn:last-child {
+  margin-bottom: 0;
 }
 
 /**
@@ -305,10 +320,18 @@ p {
   margin-right: auto;
 }
 .reviews-list-item {
+  position: relative;
   max-width: 377px;
   display: flex;
   flex-direction: column;
   border: 2px solid #5b86a1;
+}
+.reviews-img {
+}
+.reviews-photo {
+  position: absolute;
+  bottom: 64%;
+  left: 33%;
 }
 .reviews-box {
   padding-left: 28px;
@@ -319,6 +342,7 @@ p {
 .reviews-caption {
   text-align: center;
   color: #5b86a1;
+  margin-top: 83px;
   margin-bottom: 24px;
 }
 .reviews-desc {
